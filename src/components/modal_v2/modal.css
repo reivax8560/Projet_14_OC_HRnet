@@ -1,0 +1,63 @@
+.classModal-HRnet {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.2rem;
+    border-radius: 15px;
+}
+
+.classTitle-HRnet {
+    margin-top: 0;
+    text-decoration: underline;
+    font-size: 1.4rem;
+}
+
+.classMessage-HRnet {
+    font-size: 1.3rem;
+}
+
+/************** classes par défaut ****************/
+
+.classScreenBgColor-default {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.classModal-default {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: rgb(215, 215, 215);
+    /* width: 40%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+.classTitle-default {
+    margin-top: 0;
+    text-decoration: underline;
+    font-size: 1.2rem;
+}
+
+.classMessage-default {
+    font-size: 1rem;
+}
+
+.closureIcon {
+    cursor: pointer;
+    position: absolute;
+    right: -0.3rem;
+    top: -0.3rem;
+    font-size: 2rem;
+}

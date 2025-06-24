@@ -1,8 +1,17 @@
-import CreateEmployee from '../pages/createEmployee/CreateEmployee';
+import { Provider } from 'react-redux';
+import { store } from './store';
+import { RouterProvider } from 'react-router-dom';
+import { router } from './router'
 
 export default function App() {
 
   return (
-    <CreateEmployee />
+
+    <div >
+      <Provider store={store}>
+        <RouterProvider router={router} />
+      </Provider>
+    </div>
+
   )
 }
