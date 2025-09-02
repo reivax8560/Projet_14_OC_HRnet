@@ -16,12 +16,10 @@ export default function EmployeeList() {
 
                 <Grid
                     data={useSelector(getEmployees)}
-                    columns={['First name', 'Last name', 'Birth date', 'Start date', 'Street', 'City', 'State', 'Zip code', 'Departments']}
+                    columns={['First name', 'Last name', 'Birth date', 'Start date', 'Street', 'City', 'State', 'Zip code', 'Department']}
                     search={true}
                     sort={true}
                     pagination={{ limit: 8, summary: true, }}
-                    // autoWidth={true}
-                    // width='80%'
                     style={{
                         container: {},
                         header: {},

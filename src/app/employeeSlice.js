@@ -1,9 +1,5 @@
 import { createSlice } from '@reduxjs/toolkit';
 
-// const initialState = {
-//     employees: []
-// };
-
 export const employeeSlice = createSlice({
     name: 'employees',
     initialState: [],
