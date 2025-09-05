@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
 import { useState } from 'react';
-import "./DropDownMenu.css";
+import "./dropDownMenu.css";
 
 export default function DropDownMenu({ 
     datas, 
@@ -27,7 +27,6 @@ export default function DropDownMenu({
                     icon={faChevronDown}
                     className={isListOpen ? "chevron down" : "chevron up" }
                 />
-
             </div>
           
           
@@ -47,7 +46,6 @@ export default function DropDownMenu({
 
             )}
             </ul>
-
         </div>
     )
 }

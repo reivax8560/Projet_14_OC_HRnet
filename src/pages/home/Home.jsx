@@ -10,7 +10,7 @@ import 'react-date-picker/dist/DatePicker.css';
 import 'react-calendar/dist/Calendar.css';
 import Modal from "@reivax8560/react-modal-xm";
 import '@reivax8560/react-modal-xm/dist/react-modal-xm.css';
-import DropDownMenu from '../../components/DropDownMenu/DropDownMenu';
+import DropDownMenu from '../../components/dropDownMenu/DropDownMenu';
 
 
 export default function Home() {
